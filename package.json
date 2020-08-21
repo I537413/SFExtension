@@ -38,6 +38,7 @@
         "model": "srv/external/ECSkillsManagement",
         "credentials": {
           "destination": "sfextension-service",
+          "path": "/odata/v2",
           "requestTimeout": 18000000
         }
       },
@@ -46,6 +47,7 @@
         "model": "srv/external/FoundationPlatformPLT",
         "credentials": {
           "destination": "sfextension-service",
+          "path": "/odata/v2",
           "requestTimeout": 18000000
         }
       },
@@ -54,6 +56,7 @@
         "model": "srv/external/PLTUserManagement",
         "credentials": {
           "destination": "sfextension-service",
+          "path": "/odata/v2",
           "requestTimeout": 18000000
         }
       }
